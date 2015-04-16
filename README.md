@@ -12,6 +12,12 @@ for IE support).
 See the [jQuery Sparkline project page](http://omnipotent.net/jquery.sparkline/)
 for live examples and documentation.
 
+## Installation
+
+Download [latest release](https://github.com/rkgrep/jquery.sparkline/releases/tag/v2.1.3) or install with **bower**
+
+    bower install jquery-sparkline
+
 ## License
 
 Released under the New BSD License
