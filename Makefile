@@ -26,7 +26,6 @@ SRC_FILES = $(SRC_DIR)/header.js\
 VERSION = $(shell cat version.txt)
 
 all: jqs-gzip jqs-min-gzip Changelog.txt
-	cp Changelog.txt dist/
 
 jqs: ${SRC_FILES}
 	cat ${SRC_FILES} | sed 's/@VERSION@/${VERSION}/'  >${DIST_DIR}/jquery.sparkline.js
@@ -37,6 +36,6 @@ jqs-min: jqs
 
 jqs-gzip: jqs
 	gzip -9 < dist/jquery.sparkline.js >dist/jquery.sparkline.js.gz
-	
+
 jqs-min-gzip: jqs-min
 	gzip -9 < dist/jquery.sparkline.min.js >dist/jquery.sparkline.min.js.gz
