@@ -1,0 +1,16 @@
+{
+  "name": "jquery.sparkline",
+  "version": "2.1.2",
+  "homepage": "https://github.com/rkgrep/jquery.sparkline",
+  "authors": [
+    "Gareth Watts <gareth@omnipotent.net>"
+  ],
+  "license": "BSD 3",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
